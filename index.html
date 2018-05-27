@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Simple landing page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="Simple landing page build html5, css3 and jquery">
+  <meta name="keywords" content="landing page,html5,css3,js,landing,page,design">
+  <meta name="robots" content="index,follow">
+  <meta name="author" content="Thalyson Alexandre Rodrigues de Sousa">
+  <!-- ICONS -->
+  <link rel="icon" type="image/png" href="./assets/img/favicon16.ico"/>
+  <link rel="icon" type="image/png" href="./assets/img/favicon32.ico"/>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!-- Jquery -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- my CSS -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <!-- my JS -->
+  <script type="text/javascript" src="./assets/js/loader.js"></script>
+  <!-- your CSS -->
+
+  <!-- end your CSS -->
+  <!-- your JS -->
+
+  <!-- end your JS -->
+</head>
+<body>
+  <main>
+    <nav class="menu">
+      <div class="brand">
+        <h1>
+          <!-- change background css by image in .brand -->
+          <a href="#">
+            My Brand
+          </a>
+        </h1>
+      </div>
+      <button class="show-menu fa-lg">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="dropdown">
+        <li>
+          <a class="go-posts" href="#posts">
+            Link1
+          </a>
+        </li>
+        <li>
+          <a class="go-posts" href="#posts">
+            Link2
+          </a>
+        </li>
+        <li>
+          <a class="go-posts" href="#posts">
+            Link3
+          </a>
+        </li>
+        <li>
+          <a class="go-posts" href="#posts">
+            Link4
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <section id="home" class="container">
+      <div class="align-center">
+        <h1 class="title">
+          Hello World!!!
+        </h1>
+        <h2 class="subtitle">
+          Your subtitle here. Write something long
+        </h2>
+        <!-- start your application here or going to another page-->
+        <button class="get-started">
+          Get started <i class="far fa-play-circle fa-lg"></i>
+        </button>
+      </div>
+      <!-- see more in landing page. Posts, informations, etc... -->
+      <div class="see-more">
+        <!-- add more links in loader.js -->
+        <a class="go-posts" href="#posts">
+          <img src="./assets/img/arrow.png">
+        </a>
+      </div>
+    </section>
+    <section id="posts" class="container">
+      <article class="post">
+        <h3 class="post-title">
+          What is Lorem Ipsum?
+        </h3>
+        <p class="post-article">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <figure class="post-figure">
+          <img src="./assets/img/article-img1.jpg" alt="image content" title="My image">
+          <figcaption>
+            What is it
+          </figcaption>
+        </figure>
+      </article>
+      <article class="post">
+        <h3 class="post-title">
+          What is Lorem Ipsum?
+        </h3>
+        <p class="post-article">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <figure class="post-figure">
+          <img src="./assets/img/article-img2.jpg" alt="image content" title="My image">
+          <figcaption>
+            What is it
+          </figcaption>
+        </figure>
+      </article>
+    </section>
+    <button class="go-top">
+      <i class="fas fa-angle-up"></i>
+    </button>
+    <footer class="myfooter">
+      <div>
+        <!-- your brand -->
+        <img src="./assets/img/brand.png" alt="mybrand" title="My Landing page">
+        <p>
+          Thalyson Rodrigues ©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          Copyright - Todos os direitos reservados
+        </p>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
